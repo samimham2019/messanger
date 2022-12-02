@@ -1,0 +1,109 @@
+
+.window{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    width: 100vw;
+    height: 100vh;
+}
+
+.nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+/* .box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    height: 40px;
+    background-color: red;
+} */
+
+.line{
+    margin-left: 118px;
+    width: 43%;
+    height: 4px;
+    margin-top: 10px;
+    
+}
+
+.circle{
+    
+    width: 52px;
+    height: 100%;
+    background-color: green;
+    border-radius: 2px;
+    transition: margin 100ms ease-in-out;
+    
+}
+
+.sign-section{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.signin{
+    cursor: pointer;
+    margin-right: 30px;
+}
+.signup{
+    cursor: pointer;
+}
+
+.main-section{
+
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 70%;
+    border-right: 2px solid green;
+}
+
+.signIn{
+    width: 120px;
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 10px;
+    color: black;  
+    font-weight: bold; 
+    border: 1px solid gray;
+}
+
+.box{
+    width: 90%;
+    height: 70%;
+    box-shadow: 2px 2px 5px;
+    border-radius: 10px;
+}
+
+.each-slide{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slide-container{
+    height: 100%;
+    
+    
+}
+
+.image{
+    height: 500px;
+    margin-top: 40px;
+    width: 80%;
+    background-size: 100% 100%;
+
+}
+
